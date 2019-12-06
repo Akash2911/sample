@@ -1,5 +1,6 @@
 #include<stdio.h>
 #define MAX_SIZE 3
+void display(struct car *p,int n)
 struct car
 {
     char company[20];
