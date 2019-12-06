@@ -21,7 +21,7 @@ void display(struct car *p,int n)
     int i;
     for(i=0;i<MAX_SIZE;i++)
         {
-            printf("%s\t%lf\t%d\t%s\n",q->company,q->prize,q->cc,q->color);
+            printf("%s\t%lf\t%lf\t%s\n",q->company,q->prize,q->cc,q->color);
             q++;
         }
 }
